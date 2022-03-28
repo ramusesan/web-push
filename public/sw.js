@@ -89,10 +89,10 @@ this.addEventListener('notificationclick', function(event) {
   
             if (client !== undefined) {
             //   client.navigate(notification.data.url);
-              client.navigate('http://localhost:3000/');
+              client.navigate('https://web-push-client.herokuapp.com/');
               client.focus();
             } else {
-              clients.openWindow('http://localhost:3000/');
+              clients.openWindow('https://web-push-client.herokuapp.com/');
             }
             notification.close();
           })
