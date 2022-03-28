@@ -26,7 +26,7 @@ class Assignments extends React.Component {
   };
 
   getAssignmentList = () => {
-    let url = "/assignment/get";
+    let url = "https://web-push-server-app.herokuapp.com/assignment/get";
     fetch(url)
       .then((response) => {
         response.json().then((result) => {

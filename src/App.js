@@ -28,7 +28,7 @@ function App() {
   });
 
   const saveToken = (token) => {
-    fetch("/fcm/clients/add", {
+    fetch("https://web-push-server-app.herokuapp.com/fcm/clients/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
