@@ -1,0 +1,33 @@
+.backdrop,
+.main-model {
+  background: #0000008a;
+}
+
+.main-model {
+  position: fixed;
+  display: inline-flex;
+  width: 90%;
+  height: 90%;
+  top: 2rem;
+  border-radius: 8px;
+}
+
+#model-container {
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  margin: auto;
+  top: 10rem;
+}
+.close-icon {
+  position: absolute;
+  width: 25px;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+z-index: 9999;
+}
+
+.model-img {
+ margin: auto;
+}

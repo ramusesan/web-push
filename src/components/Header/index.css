@@ -1,0 +1,11 @@
+.header{
+    background-color: #9393931f;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+}
+
+.header img {
+    width: 150px;
+    margin-left: 15px;
+}
